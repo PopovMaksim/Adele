@@ -739,3 +739,52 @@ textarea {
 #inquire .heading p {
 	margin: 0;
 }
+
+/*--------------------------   FOOTER   ------------------------------------*/
+
+#footer {
+	background-color: #f1f4f5;
+	min-height: 155px;
+}
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 155px;
+}
+.rights li {
+	display: inline;
+	padding-left: 10px;
+	border-left: 1px solid #d9d9d9;
+	margin-left: 10px;
+}
+.rights ul {
+	padding: 0;
+}
+.rights li:first-child {
+	padding-left: 0;
+	border-left: none;
+	margin-left: 0;
+}
+.rights li a:hover {
+	border-bottom: 1px solid #000;
+}
+.social_networks li {
+	display: inline;
+}
+.social_networks li {
+	font-size: 24px;
+	margin-left: 50px;
+}
+.icon-facebook:hover {
+	color: #3b5998;
+}
+.icon-twitter:hover {
+	color: #41abe1;
+}
+.icon-youtube:hover {
+	color: #ff0000;
+}
+.icon-dribbble:hover {
+	color: #bd225e;
+}
