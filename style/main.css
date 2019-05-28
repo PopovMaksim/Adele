@@ -7,11 +7,17 @@ body {
 	margin: 0 auto;
 	padding: 0 15px;
 }
-h1 {
+h1, h3 {
 	font-family: 'Raleway';
 	color: #333740;
-  font-weight: 900;
+	font-weight: 900;
 	margin: 0;
+}
+h1 {
+	font-size: 72px;
+}
+h3 {
+	font-size: 24px;
 }
 p, a {
 	color: #666666;
@@ -70,4 +76,62 @@ nav li a:hover {
 }
 .nav-burger__checkbox:checked~nav {
 	margin-top: 0 !important;
+}
+
+/*------------------------------------------------------------------*/
+
+#start {
+	min-height: 585px;
+	background: url('../image/background-start.png') center right no-repeat;
+}
+.start {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 180px;
+}
+.action {
+	max-width: 430px;
+}
+hgroup {
+	border-left: 5px solid #18a3dd;
+	padding-left: 31px;
+}
+.action p {
+	margin: 70px 0 50px 0;
+}
+.button {
+	color: #333740;
+	font-weight: bold;
+	padding: 12px 38px;
+	text-transform: uppercase;
+}
+.button:hover {
+	border-radius: 25px;
+	background-color: #18a3dd;
+	color: #fff;
+	transition: 0.4s;
+}
+@media (max-width: 1100px) {
+	.start {
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: 50px;
+	}
+	.action {
+		display: block;
+	}
+	#start {
+    	background-position: 10% 90%;
+	}
+	.action p {
+		margin: 30px 0;
+	}
+	.button {
+		display: block;
+		text-align: center;
+	}
+	.start img {
+		padding: 20px;
+	}
 }
