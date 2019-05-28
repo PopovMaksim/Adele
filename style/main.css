@@ -621,3 +621,49 @@ input[type="radio"] {
 		grid-row: 2/3;
 	}
 }
+
+/*--------------------------   A_SUPPLEMENT   ------------------------------------*/
+
+#a_supplement {
+	min-height: 635px;
+	background: url('../image/background-supplement.png') center left no-repeat;
+}
+.a__supplement {
+	display: flex;
+	flex-direction: row-reverse;
+	padding-top: 120px;
+}
+.a_supplement {
+	max-width: 355px;
+}
+.price {
+	padding-left: 25px;
+	border-left: 5px solid #18a3dd;
+}
+.price h2 {
+	font-weight: bold;
+	padding: 0;
+}
+.price p {
+	margin: 0;
+}
+.a_supplement > p {
+	margin: 35px 0;
+}
+@media (max-width: 1010px) {
+	.a__supplement {
+		flex-direction: column;
+		align-items: center;
+	}
+	.a__supplement img {
+		padding-top: 25px;
+		max-width: 100%;
+    	height: auto;
+	}
+	#a_supplement {
+		background-position: 100% 80%;
+	}
+}
+
+/*--------------------------   A_SUPPLEMENT   ------------------------------------*/
+
