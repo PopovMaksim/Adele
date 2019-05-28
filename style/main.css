@@ -665,5 +665,41 @@ input[type="radio"] {
 	}
 }
 
-/*--------------------------   A_SUPPLEMENT   ------------------------------------*/
+/*--------------------------   SUBSCRIBE   ------------------------------------*/
 
+#subscribe {
+	background: url('../image/background-subscribe.png') no-repeat center center /cover;
+	min-height: 400px;
+}
+#subscribe h2 {
+	color: #fff;
+}
+.mailing {
+	display: grid;
+	grid-template-columns: 75% 25%;
+	min-height: 50px;
+	max-width: 550px;
+	margin: 0 auto;
+	padding: 70px;
+}
+input[name="subscribe"] {
+	border:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+	background-color: #18a3dd;
+	border-top-right-radius: 23px;
+	border-bottom-right-radius: 23px;
+	font-weight: 900;
+	font-family: 'Lato';
+	color: #fff;
+}
+input[name="email"] {
+	border:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+	padding: 10px 30px;
+	border-top-left-radius: 23px;
+	border-bottom-left-radius: 23px;
+}
