@@ -78,7 +78,7 @@ nav li a:hover {
 	margin-top: 0 !important;
 }
 
-/*------------------------------------------------------------------*/
+/*--------------------------   START   ------------------------------------*/
 
 #start {
 	min-height: 585px;
@@ -134,4 +134,59 @@ hgroup {
 	.start img {
 		padding: 20px;
 	}
+}
+
+/*--------------------------   COMPOSITION   ------------------------------------*/
+
+#composition {
+	background: url('../image/background-composition.png') no-repeat center center /cover;
+}
+#composition img {
+	margin-top: -120px;
+	margin-left: -140px;
+	float:left;
+}
+.composition {
+	display: flex;
+	justify-content: space-around;
+	padding: 100px 0;
+	margin-top: 120px;
+}
+.quantity {
+	color: #fff;
+	font-size: 72px;
+	font-weight: 900;
+	padding-left: 20px;
+	border-left: 5px solid #18a3dd;
+	margin: 0 !important;
+}
+.unit {
+	color: #18a3dd;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 24px 0 0 0 !important;
+}
+.composition p {
+	margin: 10px 0 0 0;
+}
+@media (max-width: 760px) {
+	#composition img {
+		height: 425px;
+		margin-top: -90px;
+	}
+	.composition {
+		flex-direction: column;
+		padding: 10px 0;
+		margin-top: 80px;
+	}
+	.quantity {
+		font-size: 28px;
+	}
+	.unit {
+		font-size: 16px;
+		margin: 5px 0 0 0 !important;
+	}
+	.composition p {
+		margin: 5px 0;
+	}	
 }
