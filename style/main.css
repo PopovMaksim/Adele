@@ -50,6 +50,9 @@ a {
 	font-size: 16px;
 	font-weight: bold;
 }
+#logo img {
+    vertical-align: middle
+}
 
 /*--------------------------   NAV   ------------------------------------*/
 
@@ -430,6 +433,9 @@ b {
 #client .heading h2 {
 	color: #fff;
 	padding-top: 2em;
+}
+#client img {
+    float: left;
 }
 .name-location {
 	padding-left: 80px;
